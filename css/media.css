@@ -50,6 +50,9 @@
         align-items: center;
         flex-flow: column;
 	}
+	.row{
+		align-items: center;
+	}
 }
 @media(max-width:991px) {
 	.text-center-mobile {

@@ -1,0 +1,75 @@
+/* Media Queries */
+@media(max-width:992px) {
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	h6 {
+		font-size: 12px;
+	}
+	.section {
+		padding: 30px 0;
+	}
+}
+@media(max-width: 600px){
+	.container{
+		width: 95%;
+	}
+	.bottom1{
+		width: 90%;
+	}
+	.services{
+		align-items: center;
+    }
+	.cont{
+		align-items: center;
+	}
+	.col-md-4{
+		text-align:center ;
+	}
+}
+@media(max-width:1120px) {
+	.text-center-mobile {
+		text-align: center !important;
+	}
+	.services{
+		align-items: center;
+	}
+	.cont{
+        align-items: center;
+        flex-flow: column;
+	}
+}
+@media(max-width:991px) {
+	.text-center-mobile {
+		text-align: center !important;
+	}
+	.services{
+		flex-flow: column;
+	}
+	.col-md-4{
+		margin: auto;
+	}
+	.tips{
+		flex-flow: column;
+		align-items: center;
+	}
+	.tips div{
+		margin-top: 5px;
+    }
+    .cont{
+        align-items: center;
+    }
+	
+}

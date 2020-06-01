@@ -38,6 +38,24 @@
 	.col-md-4{
 		text-align:center ;
 	}
+	.btslider
+	{
+		flex-direction: column;
+	}
+	.hidden-header
+	{
+		display: none;
+	}
+	a
+	{
+		font-size: 9px;
+	}
+	.dws
+	{
+		height: 30px;
+		width: 70px;
+		top: 60px;
+	}
 }
 @media(max-width:1120px) {
 	.text-center-mobile {
@@ -75,4 +93,18 @@
         align-items: center;
     }
 	
+	.btslider
+	{
+		flex-direction: column;
+	}
+
+	a
+	{
+		font-size: 10px;
+	}
+	.dws
+	{
+		height: 30px;
+		width: 70px;
+	}
 }

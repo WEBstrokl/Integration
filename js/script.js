@@ -8,3 +8,13 @@ $(window).scroll(function()                // всплывающее меню
         $('.hidden-header').removeClass('out');
     }
 })
+
+$(document).ready(function(){               // карусель элементов
+    $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 550,
+        dots: false
+    });
+  });

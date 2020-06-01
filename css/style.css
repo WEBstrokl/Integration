@@ -267,63 +267,60 @@ h4, h2
 {
     text-align: center;
 }
-
-.pricing
-{
-    background: url("../img/pricing.jpg");
-	/* background-repeat: no-repeat; */
-	/* background-repeat: cover; */
-    /* background-size: 100%; */
-	height: 500px;
-	margin-top: 80px;
+.container2{
+	height: 700px;
 }
+.pricing{
+	background-color: red;
+	display: flex;
 
-.pricing div div div, .pricing div div div p
-{
-    width: 180px;
-    height: 180px;
-    padding: 15px;
-    color: white;
-    justify-content: center;
 }
-
-.pricing div div
-{
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    margin: 0px;
+.margin-top{
+	margin-top: 50px;
+	background-color: black;
 }
-
-.pricing div
-{
-    float: right;
-    margin-top: 40px;
-    margin-right: 210px;
-    display: flex;
-    flex-flow: column;
+.box-main{
+	padding-top: 10px;
+	background-color: rgb(51,51,255);
+	height: 175px;
+	width: 280px;
+	margin-left:50%;
+	margin-bottom: 10px;
+	text-align: center;
 }
-
-.pricing-yoga
-{
-    background-color: #1F7FD9;
-    transition: width 0.2s ease-in-out;
+.box-second{
+	background-color: lawngreen;
+	width: 280px;
+	padding-right: 20px;
+	margin-bottom: 10px;
 }
-.pricing-yoga:hover
-{
-    width: 100%;
+li{
+	font-size: 17px;
+	margin-bottom: 8px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
 }
-
-.pricing-trainer
-{
-    background-color: #324251;
+.btn1{
+	color: white;
+	border-color: red;
+	width: 120px;
+	height: 40px;
+	border: 2px solid white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	outline: none;
+	text-decoration: none;
+	background-color: rgb(51,51,255);
 }
-
-.pricing-cardio
-{
-    background-color: #61676C;
+.btn1:hover{
+	color: rgb(51,51,255);
+	background-color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.white1{
+	margin-bottom: 25px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
 .tips div
 {
 	padding: 15px;

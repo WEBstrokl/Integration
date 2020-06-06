@@ -28,9 +28,6 @@
 	.col-md-4{
 		text-align: center;
 	}
-	.team{
-		width: 500px;
-	}
 	.service{
 		width: 500px;
 	}
@@ -74,9 +71,7 @@
 	}
 	.dws
 	{
-		height: 30px;
-		width: 70px;
-		top: 60px;
+		
 	}
 	.pricing{
 		flex-flow:column ;
@@ -86,6 +81,7 @@
 		width: 200px;
 		margin-bottom: 10px;
 	}
+	
 }
 @media(max-width:1120px) {
 	.text-center-mobile {
@@ -111,6 +107,10 @@
 	.col-md-4{
 		text-align: center;
 	}
+	.btslider{
+		flex-direction: column;
+	}
+	
 	
 }
 @media(max-width:1170px) {
@@ -120,9 +120,7 @@
 	.box-second{
 		display: none;
 	}
-	.team{
-		width: 700px;
-	}
+	
 	.white{
 		font-size: 16px;
 	}
@@ -131,15 +129,26 @@
 	}
 }
 @media(max-width:400px) {
-	.box-main{
-		width: 120px;
+	.service{
+		margin-left: 20px;
 	}
+	.team{
+		margin-left: 30px;
+	}
+	.title{
+		margin-left: 60px;
+	}
+	
 	.light{
 		font-size: 13px;
 	}
 	.btn1{
 		width: 100px;
 	}
+	.slider div{
+		width: 300px;
+	}
+	
 }
 @media(max-width:1300px) {
 	li{
@@ -164,13 +173,6 @@
 	.col-md-4{
 		margin: auto;
 	}
-	.tips{
-		flex-flow: column;
-		align-items: center;
-	}
-	.tips div{
-		margin-top: 5px;
-    }
     .cont{
         align-items: center;
     }
@@ -191,4 +193,18 @@
 		height: 30px;
 		width: 70px;
 	}
+	.per{
+		display: none;
+	}
+	.tips{
+		
+	}
+}
+@media(max-width:1020px){
+	.tips{
+		display: inline-block;
+		text-align: center;
+		margin-top: -500px;
+	}
+	
 }

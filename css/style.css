@@ -63,6 +63,7 @@ h6 {
 	margin: 40px 0;
 	display:flex;
 	justify-content: space-around;
+	text-align: center;
 }
 
 .service {
@@ -257,9 +258,21 @@ body
     background-color: #212B47;
     color: white;
 	width: 300px;
-    height: 300px;
+	height: 300px;
+	margin-bottom: 8px;
 }
-
+.tips-day{
+	background: url("../img/table-1.jpg");
+	background-size: cover;
+}
+.tips-work-out{
+	background: url("../img/table-2.jpg");
+	background-size: cover;
+}
+.tips-warmup{
+	background: url("../img/table-3.jpg");
+	background-size: cover;
+}
 h5, h3
 {
 	margin-top: 60px;
@@ -276,6 +289,11 @@ h4, h2
 }
 .container3{
 	height: 200px;
+	padding-top: 100px;
+}
+.sld{
+	height: 350px;
+	background-color: #00a8ff;
 }
 .fa-twitter{
 	color: white;
@@ -638,13 +656,18 @@ section {
 
 .slider div
 {
-	width: 300px;
+	width: 400px;
 	height: 300px;
 	background-color: #212B47;
+	margin-bottom: 8px;
+}
+.tpsi{
+	margin: 10px;
+	margin-left: 5%;
 }
 .slider div p
 {
-	padding: 0px 18px;
+	
 	color: white;
 }
 
@@ -652,11 +675,26 @@ section {
 {
 	display: flex;
 	margin-top: -240px;
-	margin-left: 115px;
 }
 
 .bigwall div img
 {
-	height: 400px;
-	object-fit: cover;
+	width: 100%;
+	background-size: cover;
+}
+.btsd{
+	background-color: red;
+	text-align: center;
+}
+.tpsq{
+	text-align: center;
+}
+.tpsw{
+	color: black;
+}
+.whiteF{
+	color: black;
+}
+.greyF{
+	color: #8c8c8c;
 }

@@ -10,14 +10,14 @@ a.hover{
     text-decoration: none;
 }
 
-.parrent{
+ .parrent{
   width: 900px;
   height: 900px; 
   margin: auto;
   align-items: center;
   justify-content: center;
   display: flex;
-}
+} 
 .container{
     width: 450px;
     background-color: #182134;
@@ -44,12 +44,14 @@ input[type="text"], input[type="password"],input[type="date"],input[type="color"
     padding-left: 40px;
 }
 .dws-submit{
+    width: 200px;
     padding:13px 30px;
     margin: 5px 0 20px 0;
     font-size: 15px;
     color: #fff;
     background-color: #2ca8c6;
     border: none;
+    border-radius: 5px;
     border-bottom: 4px solid #6ee9fd;
     cursor: pointer;
 }

@@ -39,34 +39,29 @@
 	<div class="tpsq">
 		<div class="tips">
 			<div class="tips-day wdth">
-				<p class="tpsw">Tips of the day</p>
-				<p class="tpsw">-Morning good good stuff</br>
-					-Night good</br>
-					-Morning boyssldkfjsldfk</br>
-					-Morning  sf  sdf</br>
-					-Morning  fhsllls</br>
-					-Morning </br>
-					-Night good need drink</p>
+				<p class="tpsw" style="text-align: center; font-size: 20px;">Tips of the day</p>
+				<p class="tpsw">- If you do not manage the news that reaches you, then they manage you.</br>
+					- Do not keep gadgets in the bedroom.</br>
+					- Fall asleep “today”, and wake up “tomorrow”.</br>
+					- Do not keep the email program constantly open.</p>
 			</div>
 			<div class="tips-work-out wdth">
-				<p class="tpsw">Morning work-out</p>
-				<p class="tpsw">-Morning good good stuff</br>
-					-Night good</br>
-					-Morning boyssldkfjsldfk</br>
-					-Morning  sf  sdf</br>
-					-Morning  fhsllls</br>
-					-Morning </br>
-					-Night good need drink</p>
+				<p class="tpsw" style="text-align: center; font-size: 20px;">Morning work-out</p>
+				<p class="tpsw">- Lap push ups</br>
+					- Dog Cat</br>
+					- Jumping jack</br>
+					- Caterpillar</br>
+					- Legs up</br>
+					- Squats </br>
+					- Twisting</p>
 			</div>
 			<div class="tips-warmup wdth">
-				<p class="tpsw">Warm up</p>
-				<p class="tpsw">-Morning good good stuff</br>
-					-Night good</br>
-					-Morning boys</br>
-					-Morning </br>
-					-Morning </br>
-					-Morning </br>
-					-Night good need drink</p>
+				<p class="tpsw" style="text-align: center; font-size: 20px;">Warm up</p>
+				<p class="tpsw">- Walking on the spot: 1 minute</br>
+					- Joint gymnastics: 2-3 minutes</br>
+					- Dynamic muscle stretching: 2-3 minutes</br>
+					- Cardio warm-up: 2-3 minutes</br>
+					- Breathing recovery: 0.5-1 minute</p>
 			</div>
 		</div>
 	</div>
@@ -204,8 +199,7 @@
 							<img src="img/icons/guru-blue.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Yoga Pilates</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel
-							suspendisse scelerisque a aenean hac montes.</p>
+						<button id="testButton" class="description">claim</button>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -220,6 +214,79 @@
 				</div>
 			</div>
 		</div>
+		<form id="test" class="invisibleTest">
+			<fieldset>
+				<div>
+			    	<label for="">Sex:</label>
+			    	<label for="">
+						<input type="radio" name="q1" value="Male" checked>
+						Male
+			    	</label>
+			    	<label for="">
+						<input type="radio" name="q1" value="Female">
+						Female
+			    	</label>
+				</div>
+				<div>
+					<label for="">Weight:</label>
+					<label for="">
+						<input type="radio" name="q2" value="light" checked>
+						Light
+					</label>
+					<label for="">
+						<input type="radio" name="q2" value="average">
+						Average
+					</label>
+					<label for="">
+						<input type="radio" name="q2" value="heavy">
+						Heavy
+					</label>
+				</div>
+				<div>
+					<label for="">Body type:</label>
+					<label for="">
+						<input type="radio" name="q3" value="ectomorph" checked>
+						Ectomorph
+					</label>
+					<label for="">
+						<input type="radio" name="q3" value="endomorph">
+						Endomorph
+					</label>
+					<label for="">
+						<input type="radio" name="q3" value="mesomorph">
+						Mesomorph
+					</label>
+				</div>
+				<div>
+					<label for="">Frequency of sports:</label>
+					<label for="">
+						<input type="radio" name="q4" value="often" checked>
+						Often
+					</label>
+					<label for="">
+						<input type="radio" name="q4" value="rarely">
+						Rarely
+					</label>
+				</div>
+				<div>
+					<label for="">Training level:</label>
+					<label for="">
+						<input type="radio" name="q5" value="easy" checked>
+						Easy
+					</label>
+					<label for="">
+						<input type="radio" name="q5" value="middle">
+						Middle
+					</label>
+					<label for="">
+						<input type="radio" name="q5" value="hard">
+						Hard
+					</label>
+				</div>
+			</fieldset>
+			<button type="submit">Confirm</button>
+		</form>
+		<div id="list"></div>
 	</section>
 	<section id="team" class="white-bg">
 		<div class="container">
@@ -350,7 +417,7 @@
 		<div class="container3">
 			<i class="icon1 fa fa-twitter fa-3x"></i>
 			<h4 class="whiteF">To enjoy the glow of good health, you must exercise.</h4>
-			<h4 class="greyF">#health #training #exercise</h4>
+			<h4 class="greyF">#health  #training  #exercise</h4>
 		</div>
 		<!-- <div class=" container 3 owl-carousel owl-theme bigwall">
 			<div>
@@ -397,6 +464,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/service.js"></script>
 </body>
 
 </html>

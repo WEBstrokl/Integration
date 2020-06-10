@@ -8,7 +8,7 @@ $(window).scroll(function()                // всплывающее меню
         $('.hidden-header').removeClass('out');
     }
 })
-
+/*
 $(document).ready(function(){               // карусель элементов
     $(".owl-carousel").owlCarousel({
         items: 1,
@@ -18,3 +18,9 @@ $(document).ready(function(){               // карусель элементо
         dots: false
     });
   });
+
+$(document).getElementById('testButton').addEventListener("click", function (event) {
+    $(document).getElementsByTagName('form')[0].classList.add('newTheme');
+    $(document).getElementsByTagName('form')[0].classList.remove('invisibleTest');
+  });
+  */

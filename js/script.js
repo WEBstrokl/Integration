@@ -8,6 +8,7 @@ $(window).scroll(function()                // всплывающее меню
         $('.hidden-header').removeClass('out');
     }
 })
+
 /*
 $(document).ready(function(){               // карусель элементов
     $(".owl-carousel").owlCarousel({
@@ -18,9 +19,16 @@ $(document).ready(function(){               // карусель элементо
         dots: false
     });
   });
+*/
 
-$(document).getElementById('testButton').addEventListener("click", function (event) {
-    $(document).getElementsByTagName('form')[0].classList.add('newTheme');
-    $(document).getElementsByTagName('form')[0].classList.remove('invisibleTest');
-  });
-  */
+document.getElementById('testButton1').onclick = function() {
+    document.getElementById('get-train').classList.toggle('invisibleTest');
+    };
+
+document.getElementById('testButton2').onclick = function() {
+    document.getElementById('get-train').classList.toggle('invisibleTest');
+    };
+
+document.getElementById('testButton3').onclick = function() {
+    document.getElementById('get-train').classList.toggle('invisibleTest');
+    };

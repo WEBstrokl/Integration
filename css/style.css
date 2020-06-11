@@ -111,7 +111,12 @@ h6 {
 }
 
 .service .description {
-	width: 80%;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+	border-radius: 10%;
+    border-bottom: 4px solid #6ee9fd;
+	width: 50%;
 	margin: 0 auto;
 	opacity: 0;
 	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -704,19 +709,40 @@ section {
 
 .card{
 	border: 1px solid black;
-	margin: 20px;
 	padding: 20px;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-#test
-{
-	margin: 20px;
-	padding: 20px;
-}
 
 #test label
 {
 	font-size: 20px;
-	padding: 10px;
+}
+
+.invisibleTest
+{
+	display: none;
+}
+
+#get-train
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#get-train h1
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#get-train form button
+{
+	margin: 10px;
+	padding: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+	border-radius: 10%;
+    border-bottom: 4px solid #6ee9fd;
 }

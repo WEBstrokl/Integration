@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="libs/owlcarousel2/assets/owl.theme.default.css">
 	<script src="js/jquery.js"></script>
 	<script src="libs/owlcarousel2/owl.carousel.min.js"></script>
-	<script src="js/script.js"></script>
 </head>
 
 <body>
@@ -189,8 +188,7 @@
 							<img src="img/icons/heart-blue.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Cardio Training</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel
-							suspendisse scelerisque a aenean hac montes.</p>
+						<button id="testButton1" class="description">claim</button>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -199,7 +197,7 @@
 							<img src="img/icons/guru-blue.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Yoga Pilates</h4>
-						<button id="testButton" class="description">claim</button>
+						<button id="testButton2" class="description">claim</button>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -208,85 +206,87 @@
 							<img src="img/icons/weight-blue.png" alt="" class="icon">
 						</div>
 						<h4 class="heading">Power Training</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel
-							suspendisse scelerisque a aenean hac montes.</p>
+						<button id="testButton3" class="description">claim</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<form id="test" class="invisibleTest">
-			<fieldset>
-				<div>
-			    	<label for="">Sex:</label>
-			    	<label for="">
-						<input type="radio" name="q1" value="Male" checked>
-						Male
-			    	</label>
-			    	<label for="">
-						<input type="radio" name="q1" value="Female">
-						Female
-			    	</label>
-				</div>
-				<div>
-					<label for="">Weight:</label>
-					<label for="">
-						<input type="radio" name="q2" value="light" checked>
-						Light
-					</label>
-					<label for="">
-						<input type="radio" name="q2" value="average">
-						Average
-					</label>
-					<label for="">
-						<input type="radio" name="q2" value="heavy">
-						Heavy
-					</label>
-				</div>
-				<div>
-					<label for="">Body type:</label>
-					<label for="">
-						<input type="radio" name="q3" value="ectomorph" checked>
-						Ectomorph
-					</label>
-					<label for="">
-						<input type="radio" name="q3" value="endomorph">
-						Endomorph
-					</label>
-					<label for="">
-						<input type="radio" name="q3" value="mesomorph">
-						Mesomorph
-					</label>
-				</div>
-				<div>
-					<label for="">Frequency of sports:</label>
-					<label for="">
-						<input type="radio" name="q4" value="often" checked>
-						Often
-					</label>
-					<label for="">
-						<input type="radio" name="q4" value="rarely">
-						Rarely
-					</label>
-				</div>
-				<div>
-					<label for="">Training level:</label>
-					<label for="">
-						<input type="radio" name="q5" value="easy" checked>
-						Easy
-					</label>
-					<label for="">
-						<input type="radio" name="q5" value="middle">
-						Middle
-					</label>
-					<label for="">
-						<input type="radio" name="q5" value="hard">
-						Hard
-					</label>
-				</div>
-			</fieldset>
-			<button type="submit">Confirm</button>
-		</form>
-		<div id="list"></div>
+		<div id="get-train" class="invisibleTest">
+			<h1>Training selection</h1>
+			<form id="test">
+				<fieldset>
+					<div>
+						<label for="">Sex:</label>
+						<label for="">
+							<input type="radio" name="q1" value="Male" checked>
+							Male
+						</label>
+						<label for="">
+							<input type="radio" name="q1" value="Female">
+							Female
+						</label>
+					</div>
+					<div>
+						<label for="">Weight:</label>
+						<label for="">
+							<input type="radio" name="q2" value="light" checked>
+							Light
+						</label>
+						<label for="">
+							<input type="radio" name="q2" value="average">
+							Average
+						</label>
+						<label for="">
+							<input type="radio" name="q2" value="heavy">
+							Heavy
+						</label>
+					</div>
+					<div>
+						<label for="">Body type:</label>
+						<label for="">
+							<input type="radio" name="q3" value="ectomorph" checked>
+							Ectomorph
+						</label>
+						<label for="">
+							<input type="radio" name="q3" value="endomorph">
+							Endomorph
+						</label>
+						<label for="">
+							<input type="radio" name="q3" value="mesomorph">
+							Mesomorph
+						</label>
+					</div>
+					<div>
+						<label for="">Frequency of sports:</label>
+						<label for="">
+							<input type="radio" name="q4" value="often" checked>
+							Often
+						</label>
+						<label for="">
+							<input type="radio" name="q4" value="rarely">
+							Rarely
+						</label>
+					</div>
+					<div>
+						<label for="">Training level:</label>
+						<label for="">
+							<input type="radio" name="q5" value="easy" checked>
+							Easy
+						</label>
+						<label for="">
+							<input type="radio" name="q5" value="middle">
+							Middle
+						</label>
+						<label for="">
+							<input type="radio" name="q5" value="hard">
+							Hard
+						</label>
+					</div>
+				</fieldset>
+				<button type="submit">Confirm</button>
+			</form>
+			<div id="list"></div>
+		</div>
 	</section>
 	<section id="team" class="white-bg">
 		<div class="container">
@@ -465,6 +465,7 @@
 		</div>
 	</footer>
 	<script src="js/service.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
